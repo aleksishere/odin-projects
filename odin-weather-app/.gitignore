@@ -1,0 +1,9 @@
+/webpack.config.js
+/node_modules
+/.prettierignore
+/.prettierrc
+package.json
+tailwind.config.js
+package-lock.json
+.vscode/
+.eslintrc.js

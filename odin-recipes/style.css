@@ -1,0 +1,25 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(237, 237, 232);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#links {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+* {
+    background-color: rgb(220, 221, 222);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    border-radius: 4%;
+    padding: 10px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 480px;
+    border: 5px solid black;
+    padding: 40px 20px;
+    border-radius: 5%;
+    background-color: rgb(172, 174, 176);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+aside button {
+    height: 62px;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    font-size: 35px;
+    border-radius: 5%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.buttons:hover {
+    background-color: rgb(179, 202, 202);
+}
+
+#display {
+    background-color: aliceblue;
+    max-width: 480px;
+    min-height: 100px;
+    font-size: 40px;
+    display: flex;
+    word-break: break-all;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 15px;
+}

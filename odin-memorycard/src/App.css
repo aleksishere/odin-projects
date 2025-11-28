@@ -1,0 +1,92 @@
+.pokeCard {
+  padding: 1em 3em 3em 3em;
+  border: 5px solid #58bea1;
+  border-radius: 8%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(120, 219, 181);
+
+}
+
+body {
+  background-color: #83EEC5;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  font-size: 2em;
+}
+
+.scores {
+  display: flex;
+  gap: 1em;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.pokeCard img {
+  width: 200%;
+  height: auto;
+  max-width: none;
+}
+
+.exo-200 {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.exo-700 {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 3px solid #58bea1;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #58bea1;
+  cursor: pointer;
+}
+
+.pokemonName {
+  font-size: 1.5em;
+}
+
+.btns {
+  display: flex;
+  gap: 0.5em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

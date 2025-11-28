@@ -1,0 +1,117 @@
+.bottom-left {
+  position: absolute;
+  bottom: 5px;
+  left: 300px;
+}
+
+.img-wrapper {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.img-wrapper > img {
+  max-width: 100%;
+  width: 100vw;
+  height: auto;
+}
+
+.img-wrapper > div {
+  font-size: 4em;
+}
+
+article {
+  margin: 20px 300px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.foundaments > p {
+  margin-bottom: 10px;
+}
+
+.foundaments > p:nth-child(1) {
+  font-size: 25px;
+}
+
+#happinessChart {
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#happinessDiv .column tbody td {
+  margin-inline-start: 10px;
+  margin-inline-end: 20px;
+  box-shadow:
+    1px -1px 1px lightgrey,
+    2px -2px 1px lightgrey,
+    3px -3px 1px lightgrey,
+    4px -4px 1px lightgrey,
+    5px -5px 1px lightgrey,
+    6px -6px 1px lightgrey,
+    7px -7px 1px lightgrey,
+    8px -8px 1px lightgrey,
+    9px -9px 1px lightgrey,
+    10px -10px 1px lightgrey;
+}
+
+.privacy {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 50px;
+  gap: 100px;
+}
+
+.privacy > div {
+  max-width: 450px;
+}
+
+.questions {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.questions input, textarea {
+  padding: 10px 5px;
+  border-radius: 5px;
+  resize: none;
+  border: 1px solid rgb(155, 155, 155);
+}
+.nameEmailWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.questionsForm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.questionsSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+.questionsSubmit > button {
+  padding: 15px 150px;
+  border-radius: 10px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.questionsSubmit>button:hover {
+  background-color: #0d84fc;
+}
+
+.questionsText {
+  max-width: 400px;
+}

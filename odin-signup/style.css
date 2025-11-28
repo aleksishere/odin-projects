@@ -1,0 +1,167 @@
+* {
+    font-size: 15px;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+a:hover {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#wrapper {
+    display: flex;
+}
+
+aside {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50rem;
+    max-width: 120rem;
+    background-image: url(imgs/david-gavi-Ijx8OxvKrgM-unsplash\ \(1\).jpg);
+    background-repeat:no-repeat;
+    background-position: -200px -300px;
+}
+
+#logo {
+    background-color: rgba(0,0,0,.3);
+    padding: 2rem 0;
+    margin-top: 15rem;
+    line-height: 3em;
+}
+
+#logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-wrapper > p {
+    font-size: 60px;
+}
+
+#logo > span {
+    font-size: 30px;
+}
+
+#logo-footer {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+#logo-footer > a {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+article {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+#informations {
+    padding-top: 8rem;
+    padding-left: 5rem;
+    padding-right: 12rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+#informations p {
+    font-size: 25px;
+}
+
+#form {
+    -webkit-box-shadow: 11px 18px 39px -24px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 11px 18px 39px -24px rgba(66, 68, 90, 1);
+    box-shadow: 11px 18px 39px -24px rgba(66, 68, 90, 1);
+    padding: 2rem 5rem ;
+    background-color: white;
+}
+
+#form > p {
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+#form-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+    display: inline-flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+input {
+    max-width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(229, 231, 235);
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+#buttons {
+    margin: 2rem 3rem;
+}
+
+#buttons button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(81, 117, 74);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border-color: rgba(0,0,0,.1);
+    -webkit-box-shadow: 8px 8px 24px -14px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -14px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -14px rgba(66, 68, 90, 1);
+}
+
+#buttons button:hover {
+    background-color: rgb(74, 107, 67);
+    cursor: pointer;
+}
+
+#buttons p {
+    font-size: 18px;
+    padding-top: 1.5rem;
+}
+#buttons a {
+    color: rgb(81, 117, 74);
+}
+
+#buttons a:hover {
+    color: rgb(74, 107, 67);
+}
+
+.invalid {
+    border-color: red;
+}
+
+#invalid-password {
+    color: red;
+} 

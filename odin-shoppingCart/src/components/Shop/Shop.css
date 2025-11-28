@@ -1,0 +1,15 @@
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.shopCartNav {
+  padding: 1em 0;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}

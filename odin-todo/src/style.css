@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#taskProjects div:nth-of-type(1) div > img {
+    display: none;
+}
+
+::backdrop {
+    backdrop-filter: blur(2px);
+}
+
+dialog {
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.list-item {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.topWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.no-margin {
+    margin: 0;
+}

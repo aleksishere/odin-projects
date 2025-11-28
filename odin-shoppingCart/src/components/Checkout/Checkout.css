@@ -1,0 +1,39 @@
+.checkout {
+  margin: 0 300px;
+}
+
+.checkoutCard {
+  padding: 20px 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(243, 243, 243);;
+}
+
+.checkoutCard img {
+  max-width: 150px;
+  max-height: 150px;
+  height: auto;
+}
+
+.checkoutCard p {
+  font-weight: 500;
+}
+
+.checkoutCard input {
+  width: 30px;
+}
+
+.checkoutSum {
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.checkoutEmpty {
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}

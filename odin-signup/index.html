@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrapper">
+        <aside>
+            <div id="logo">
+                <div id="logo-wrapper">
+                    <img height="40px" width="40px" src="imgs/person-hiking-solid.svg" alt="">
+                    <p>Hike+</p>
+                </div>
+                <span>Make hiking easier.</span>
+            </div>
+
+            <div id="logo-footer">
+                Photo made by <a href="unsplash.com/photos/Ijx8OxvKrgM">David Gavi</a> .
+            </div>
+        </aside>
+        <article>
+            <div id="informations">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up now to get started.</p> <br>
+                <p>You know you want to.</p>
+            </div>
+            <div id="form">
+                <p>Let's do this!</p>
+                <div id="form-flex">
+                    <form action="#" method="post">
+                        <div class="form-item">
+                            <label for="firstname">FIRST NAME</label>
+                            <input required type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class="form-item">
+                            <label for="lastname">LAST NAME</label>
+                            <input required type="text" name="lastname" id="lastname">
+                        </div>
+                        <div class="form-item">
+                            <label for="email">EMAIL</label>
+                            <input required type="email" name="email" id="email">
+                        </div>
+                        <div class="form-item">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input required minlength="9" type="number" name="phone" id="phone">
+                        </div>
+                        <div class="form-item">
+                            <label for="password">PASSWORD</label>
+                            <input required minlength="5" type="password" name="password" id="password">
+                            <span id="invalid-password"></span>
+                        </div>
+                        <div class="form-item">
+                            <label for="confirmpassowrd">CONFIRM PASSWORD</label>
+                            <input required minlength="5" type="password" name="confirmpassowrd" id="confirmpassowrd">
+                        </div>
+                </div>
+            </div>
+            <div id="buttons">
+                <button type="submit">Create Account</button>
+                </form>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </article>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
